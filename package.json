@@ -1,0 +1,25 @@
+{
+  "name": "example-tauri",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "tauri": "^0.13.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "tauri": "tauri",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kflange/example-tauri.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kflange/example-tauri/issues"
+  },
+  "homepage": "https://github.com/kflange/example-tauri#readme"
+}
