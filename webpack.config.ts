@@ -1,7 +1,8 @@
-const path = require("path");
-const HtmlWebpackPlugin = require('html-webpack-plugin');
+import * as path from "path";
+import HtmlWebpackPlugin = require('html-webpack-plugin');
+import { Configuration } from 'webpack';
 
-module.exports = {
+const main: Configuration = {
   mode: "development",
   entry: path.resolve(__dirname, "src/index.tsx"),
   output: {
@@ -31,3 +32,5 @@ module.exports = {
     hot: true,
   }
 };
+
+export default [main];
